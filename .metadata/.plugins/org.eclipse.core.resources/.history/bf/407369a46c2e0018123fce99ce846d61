@@ -1,0 +1,13 @@
+import java.util.Scanner;
+public class HelloWorld {
+	public static void main(String[] arg) {
+		
+		// ´òÓ¡µ¥Êý
+		for (int j = 0; j < 10; j++) {
+			if (0 == j%2)
+				continue;
+			
+			System.out.println(j);
+		}
+	}
+}

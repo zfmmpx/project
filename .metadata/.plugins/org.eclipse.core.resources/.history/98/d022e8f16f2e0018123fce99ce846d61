@@ -1,0 +1,14 @@
+public class HelloWorld{
+	public static void main(String[] args) {
+		float F;
+		final float rate = 0.2f;
+		int n = 100000;
+		int p = 12000;
+		float compoundInterestRate = 1;
+		for(int i = 0; i < n; i++) {
+			compoundInterestRate = compoundInterestRate + rate;
+			F = p * compoundInterestRate;
+			System.out.println("第一年总收入为:" + F);
+		}
+	}
+}

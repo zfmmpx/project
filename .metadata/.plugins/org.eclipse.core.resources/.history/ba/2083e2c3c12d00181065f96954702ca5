@@ -1,0 +1,15 @@
+import java.util.Scanner;
+public class HelloWorld2 {
+	public static void main(String[] arg) {
+		Scanner s = new Scanner();
+		System.out.println("请输入一个年份");
+		int year = s.nextInt();
+		int status = "";
+		if (year % 4 == 0 && y % 100 != )
+			status = "是闰年";
+		else 
+			statue = "不是闰年";
+		System.out.println(status);
+	}
+	
+}

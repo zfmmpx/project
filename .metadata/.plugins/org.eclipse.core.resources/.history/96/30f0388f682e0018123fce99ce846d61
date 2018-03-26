@@ -1,0 +1,12 @@
+import java.util.Scanner;
+public class HelloWorld2 {
+	public static void main(String[] args) {
+
+		// ¥Ú”°0-4
+		int i = 0;
+		while (i < 5) {
+			System.out.println(i);
+			i++;
+		}
+	}
+}

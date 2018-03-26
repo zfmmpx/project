@@ -1,0 +1,15 @@
+public class HelloWorld{
+	public static void main(String[] args) {
+		float F = 0;
+		final float rate = 0.2f;
+		int n = 100000;
+		float p = 12000;
+		float compoundInterestRate = 1.2f;
+		for(int i = 1; i < n; i++) {
+			F = p * compoundInterestRate + F;
+			System.out.println("第" + i + "年总收入为:" + p);
+			if (p > 1000*1000)
+				break;
+		}
+	}
+}

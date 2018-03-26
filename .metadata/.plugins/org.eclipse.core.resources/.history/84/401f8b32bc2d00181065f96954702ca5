@@ -1,0 +1,9 @@
+public class HelloWorld {
+	public static void main(String[] arg) {
+		boolean b = false;
+		
+		if(b);{
+			System.out.println("yes");
+		}
+	}
+}
